@@ -2,7 +2,7 @@ import landingImage from "../../public/landingImage.png";
 import cropped from "../../public/cropped.png";
 const hero = () => {
   return (
-    <main className="flex  flex-col  justify-center items-center bg-slate-400 h-screen">
+    <main className="flex  flex-col  justify-center items-center bg-orange-100 h-screen">
       <div className="flex ">
         <img className="pr-10 pb-5" src={cropped} alt="" />
         <img className="pl-10 pb-5" src={landingImage} alt="" />
