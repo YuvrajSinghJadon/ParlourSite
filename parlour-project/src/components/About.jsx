@@ -1,7 +1,6 @@
 import React from "react";
 import photo from "/cropped.png";
 import { FaWhatsapp } from "react-icons/fa";
-
 const About = () => {
   return (
     <div className="container mx-auto my-8 p-8 bg-orange-100 rounded-lg shadow-md">
