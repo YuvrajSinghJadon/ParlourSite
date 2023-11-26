@@ -7,16 +7,20 @@ import Services from "./components/Services.jsx";
 import Contact from "./components/Contact.jsx";
 function App() {
   return (
-    <main className="bg-orange-100 ">
-      <Navbar/>
+    <main className=" w-screen min-h-screen bg-orange-100 flex flex-col">
+      <div>
+        <Navbar/>
+      </div>
       
-      <Routes>
-        <Route path="/" element={<Hero/>} />
-        <Route path='/about' element={<About/>}/>
-        <Route path="/services" element={<Services/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-      
-      </Routes>
+      <div>
+        <Routes>
+          <Route path="/" element={<Hero/>} />
+          <Route path='/about' element={<About/>}/>
+          <Route path="/services" element={<Services/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        
+        </Routes>
+      </div>
     </main>
   );
 }

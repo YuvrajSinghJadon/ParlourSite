@@ -4,5 +4,10 @@ export default {
   theme: {
     extend: {},
   },
+  colors:{
+    "richbrown":{
+      100: "#F3EAD8",
+    },
+  },
   plugins: [],
 };
