@@ -8,7 +8,7 @@ const PhoneCallButton = ({phoneNumber}) => {
 
 
   return (
-    <div onClick={handleMakePhoneCall} className='bg-red-900 rounded-md text-white cursor-pointer p-2' >
+    <div onClick={handleMakePhoneCall} className='transition-transform transform hover:scale-150 bg-red-900 rounded-md text-white cursor-pointer p-2' >
         Call Us
     </div>
   )
