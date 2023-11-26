@@ -6,14 +6,14 @@ import Art from "../../assets/Art.png";
 
 const GlamourSuite = () => {
   return (
-    <div className="flex flex-col justify-center items-center  mt-32">
-      <div className="flex flex-col gap-8 justify-center bg-orange-200 w-screen items-center p-28">
-        <h1 className="font-bold text-5xl ">Signature Glamour Suite</h1>
-        <div className="border-b-4 border-red-900 w-[30px] text-center"></div>
+    <div className="container mx-auto my-16">
+      <div className="bg-orange-200 p-8 text-center">
+        <h1 className="font-bold text-5xl mb-4">Signature Glamour Suite</h1>
+        <div className="border-b-4 border-red-900 w-20 mx-auto"></div>
       </div>
 
-      <div className="flex flex-row gap-32 items-center w-full  justify-center mt-16">
-        <div className="w-[30%] overflow-hidden rounded-lg shadow-2xl transition-transform transform hover:scale-105">
+      <div className="flex flex-col lg:flex-row lg:items-center gap-8 mt-8">
+        <div className="lg:w-1/3 overflow-hidden rounded-lg shadow-2xl transition-transform transform hover:scale-105">
           <img
             src={Bridal}
             alt="Bridal image"
@@ -21,9 +21,9 @@ const GlamourSuite = () => {
           />
         </div>
 
-        <div className="w-[70%] flex flex-col gap-12">
-          <p className="text-3xl font-bold">Bridal Radiance</p>
-          <p className="text-xl">
+        <div className="lg:w-2/3 flex flex-col gap-8">
+          <p className="text-3xl font-bold text-center">Bridal Radiance</p>
+          <p className="text-lg  max-h-[200px] overflow-y-auto">
             Discover the epitome of bridal beauty at{" "}
             <span className="font-bold text-red-900">Sonam Makeovers</span>. Our
             expert makeup artists specialize in creating flawless looks tailored
@@ -37,18 +37,20 @@ const GlamourSuite = () => {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse gap-32 items-center justify-between  bg-orange-200 w-screen  pt-10 pb-10 pr-16 pl-16 mt-16   ">
-        <div className="w-[30%] overflow-hidden rounded-lg shadow-2xl transition-transform transform hover:scale-105">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:flex-row-reverse bg-orange-200 mt-16 p-8">
+        <div className="lg:w-1/3 overflow-hidden rounded-lg shadow-2xl transition-transform transform hover:scale-105">
           <img
             src={Haircut}
             alt="Haircut image"
-            className="h-[450px] w-[400px] "
+            className="w-full h-full object-cover"
           />
         </div>
 
-        <div className="w-[70%] flex flex-col gap-12">
-          <p className="font-bold text-3xl">Bespoke Hair Artistry</p>
-          <p className="text-xl">
+        <div className="lg:w-2/3 flex flex-col gap-8">
+          <p className="pt-5 font-bold text-3xl text-center">
+            Bespoke Hair Artistry
+          </p>
+          <p className="text-lg pl-5 max-h-[200px] overflow-y-auto">
             Immerse yourself in a world of style and sophistication with our
             exceptional haircut experiences. At our salon, skilled stylists are
             dedicated to creating hairstyles that go beyond mere cuts – they're
@@ -64,18 +66,20 @@ const GlamourSuite = () => {
         </div>
       </div>
 
-      <div className="flex flex-row gap-32 items-center justify-between   mt-16  ">
-        <div className="w-[30%] overflow-hidden rounded-lg shadow-2xl transition-transform transform hover:scale-105">
+      <div className="flex flex-col lg:flex-row lg:items-center mt-16">
+        <div className="lg:w-1/3 overflow-hidden rounded-lg shadow-2xl transition-transform transform hover:scale-105">
           <img
             src={Art}
             alt="Artistry image"
-            className=" h-[420px] w-[350px]"
+            className="w-full h-full object-cover"
           />
         </div>
 
-        <div className="w-[70%] flex flex-col gap-12">
-          <p className="font-bold text-3xl">Skin Care Consultations</p>
-          <p className="text-xl">
+        <div className="lg:w-2/3 flex flex-col gap-8 pl-5">
+          <p className="pt-5 font-bold text-3xl text-center">
+            Skin Care Consultations
+          </p>
+          <p className="text-lg  max-h-[200px] overflow-y-auto">
             Indulge in the ultimate luxury of personalized skincare with our
             exclusive Skin Care Consultations. Our expert skincare specialists
             are dedicated to understanding your unique skin needs and concerns,
