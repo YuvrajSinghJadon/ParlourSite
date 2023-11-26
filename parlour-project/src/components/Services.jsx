@@ -3,7 +3,7 @@ import { FaPalette, FaRing, FaGraduationCap } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <div className="container mx-auto my-8 bg-orange-100 p-8 rounded-lg shadow-2xl">
+    <div className="container mx-auto my-8 bg-orange-100 p-8 pt-0 rounded-lg shadow-2xl">
       <h2 className="text-3xl font-bold mb-8 text-center">
         Our Services & Prices
       </h2>
@@ -44,7 +44,36 @@ const Services = () => {
           </p>
           <p className="text-lg font-bold text-orange-600">$800</p>
         </div>
-
+        <div className="bg-gradient-to-b from-orange-200 to-orange-100 p-6 rounded-lg shadow-md">
+          <FaGraduationCap className="text-4xl mb-4 mx-auto text-orange-600" />
+          <h3 className="text-xl font-bold mb-2 text-orange-800">
+            Makeup Lesson
+          </h3>
+          <p className="text-gray-600 mb-4">
+            Learn professional makeup techniques tailored to you.
+          </p>
+          <p className="text-lg font-bold text-orange-600">$800</p>
+        </div>
+        <div className="bg-gradient-to-b from-orange-200 to-orange-100 p-6 rounded-lg shadow-md">
+          <FaGraduationCap className="text-4xl mb-4 mx-auto text-orange-600" />
+          <h3 className="text-xl font-bold mb-2 text-orange-800">
+            Makeup Lesson
+          </h3>
+          <p className="text-gray-600 mb-4">
+            Learn professional makeup techniques tailored to you.
+          </p>
+          <p className="text-lg font-bold text-orange-600">$800</p>
+        </div>
+        <div className="bg-gradient-to-b from-orange-200 to-orange-100 p-6 rounded-lg shadow-md">
+          <FaGraduationCap className="text-4xl mb-4 mx-auto text-orange-600" />
+          <h3 className="text-xl font-bold mb-2 text-orange-800">
+            Makeup Lesson
+          </h3>
+          <p className="text-gray-600 mb-4">
+            Learn professional makeup techniques tailored to you.
+          </p>
+          <p className="text-lg font-bold text-orange-600">$800</p>
+        </div>
         {/* Add more service cards as needed */}
       </div>
     </div>

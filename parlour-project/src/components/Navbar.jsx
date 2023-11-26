@@ -30,8 +30,11 @@ const Navbar = () => {
   };
 
   return (
-    <main onClick={closeMenuOnBackgroundClick}>
-      <div className="pr-5 flex justify-between items-center  ">
+    <main
+      onClick={closeMenuOnBackgroundClick}
+      className="mb-5 "
+    >
+      <div className="pr-5 pt-2 flex justify-between items-center  ">
         <Link to="/">
           <div className="w-16 md:w-20">
             <img className="w-full" src={logo} alt="" />
@@ -45,7 +48,7 @@ const Navbar = () => {
 
         {/* Navbar links for large screens */}
         <nav
-          className={`hidden lg:flex lg:justify-center  lg:w-full lg:gap-x-16 text-lg  ${
+          className={`pb-2 border-b-2 border-red-900 hidden lg:flex lg:justify-center  lg:w-1/2 lg:gap-x-16 text-lg  ${
             isMenuOpen ? "flex-col" : ""
           }`}
         >

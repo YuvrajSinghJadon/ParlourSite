@@ -3,7 +3,7 @@ import photo from "/cropped.png";
 import { FaWhatsapp } from "react-icons/fa";
 const About = () => {
   return (
-    <div className="container mx-auto my-8 p-8 bg-orange-100 rounded-lg shadow-md">
+    <div className="container mx-auto my-8 p-8 pt-0 bg-orange-100 rounded-lg shadow-md">
       <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">
         About Us
       </h2>
