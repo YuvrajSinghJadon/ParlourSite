@@ -1,8 +1,14 @@
 // GallerySection.jsx
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const GallerySection = () => {
-  const photos = [
+  const initialPhotos = [
+    "img1.jpeg",
+    "img2.jpeg",
+    "img3.jpeg",
+    "img4.jpeg",
+    "img5.jpeg",
+    "img6.jpeg",
     "img1.jpeg",
     "img2.jpeg",
     "img3.jpeg",
@@ -11,10 +17,23 @@ const GallerySection = () => {
     "img6.jpeg",
   ];
 
+  const [shuffledPhotos, setShuffledPhotos] = useState(initialPhotos);
+
+  useEffect(() => {
+    const shuffleInterval = setInterval(() => {
+      // Shuffle the photos array
+      const shuffled = [...initialPhotos].sort(() => Math.random() - 0.5);
+      setShuffledPhotos(shuffled);
+    }, 2000); // Shuffle every 2000 milliseconds (2 seconds)
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(shuffleInterval);
+  }, [initialPhotos]);
+
   return (
     <div className="container mx-auto my-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {photos.map((photo, index) => (
+        {shuffledPhotos.map((photo, index) => (
           <div key={index} className="relative overflow-hidden rounded-lg">
             <img
               className="object-cover w-full h-48 md:h-64 lg:h-72"
