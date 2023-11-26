@@ -7,7 +7,7 @@ import Art from "../../assets/Art.png"
 const GlamourSuite = () => {
   return (
     <div className='flex flex-col justify-center items-center  mt-32' >
-        <div className='flex flex-col gap-8 justify-center bg-white w-screen items-center p-28' >
+        <div className='flex flex-col gap-8 justify-center bg-orange-200 w-screen items-center p-28' >
         <h1 className='font-bold text-5xl ' >Signature Glamour Suite</h1>
         <div className='border-b-4 border-red-900 w-[30px] text-center' ></div>
         </div>
@@ -24,7 +24,7 @@ const GlamourSuite = () => {
 
         </div>
 
-        <div className='flex flex-row-reverse gap-32 items-center justify-between  bg-white w-screen  pt-10 pb-10 pr-16 pl-16 mt-16   ' >
+        <div className='flex flex-row-reverse gap-32 items-center justify-between  bg-orange-200 w-screen  pt-10 pb-10 pr-16 pl-16 mt-16   ' >
             <div className='' >
                 <img src={Haircut} alt="Haircut image" className='h-[450px] w-[400px] ' />
             </div>
