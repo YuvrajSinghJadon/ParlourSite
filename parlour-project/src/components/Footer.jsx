@@ -20,7 +20,7 @@ const Footer = () => {
 }
 
   return (
-    <div className="flex flex-row justify-between items-center w-11/12 sm:p-2 lg:p-8 sm:mt-6 lg:mt-10" >
+    <div className="flex flex-row justify-between items-center   bg-orange-100 sm:p-2 lg:p-8 sm:mt-6 lg:mt-10" >
       <div>
         <img src={footerImage} alt="footer Image" width={350} className="" />
       </div>
