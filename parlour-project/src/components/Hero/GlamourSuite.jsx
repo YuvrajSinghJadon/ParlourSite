@@ -8,7 +8,7 @@ const GlamourSuite = () => {
   return (
     <div className="container mx-auto my-16">
       <div className="bg-orange-100 p-8 text-center">
-        <h1 className="font-bold text-5xl mb-4">Signature Glamour Suite</h1>
+        <h1 className="font-bold text-7xl mb-4 font-caveat">Signature Glamour Suite</h1>
         <div className="border-b-4 border-red-900 w-20 mx-auto"></div>
       </div>
 
@@ -22,7 +22,7 @@ const GlamourSuite = () => {
         </div>
 
         <div className="lg:w-2/3 flex flex-col gap-8">
-          <p className="text-3xl font-bold text-center">Bridal Radiance</p>
+          <p className="text-5xl font-caveat font-bold text-center ">Bridal Radiance</p>
           <p className="text-lg  max-h-[200px] overflow-y-auto">
             Discover the epitome of bridal beauty at{" "}
             <span className="font-bold text-red-900">Sonam Makeovers</span>. Our
@@ -47,7 +47,7 @@ const GlamourSuite = () => {
         </div>
 
         <div className="lg:w-2/3 flex flex-col gap-8">
-          <p className="pt-5 font-bold text-3xl text-center">
+          <p className="pt-5 text-5xl font-caveat text-center">
             Bespoke Hair Artistry
           </p>
           <p className="text-lg pl-5 max-h-[200px] overflow-y-auto">
@@ -76,7 +76,7 @@ const GlamourSuite = () => {
         </div>
 
         <div className="lg:w-2/3 flex flex-col gap-8 pl-5">
-          <p className="pt-5 font-bold text-3xl text-center">
+          <p className="pt-5 text-5xl font-caveat text-center ">
             Skin Care Consultations
           </p>
           <p className="text-lg  max-h-[200px] overflow-y-auto">

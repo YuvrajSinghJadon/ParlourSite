@@ -10,6 +10,9 @@ export default {
           200: "#888883",
         },
       },
+      fontFamily: {
+        caveat: "'Caveat', cursive",
+      },
     },
   },
   plugins: [],

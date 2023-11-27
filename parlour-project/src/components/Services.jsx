@@ -3,8 +3,8 @@ import { FaPalette, FaRing, FaGraduationCap } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <div className="container mx-auto my-8 bg-orange-100 p-8 pt-0 rounded-lg shadow-2xl">
-      <h2 className="text-3xl font-bold mb-8 text-center">
+    <div className="container mx-auto my-8 bg-orange-100 p-8 pt-5 rounded-lg shadow-2xl">
+      <h2 className="text-5xl font-bold mb-8 text-center font-caveat ">
         Our Services & Prices
       </h2>
 

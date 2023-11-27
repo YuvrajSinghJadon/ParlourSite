@@ -3,8 +3,8 @@ import photo from "/cropped.png";
 import { FaWhatsapp } from "react-icons/fa";
 const About = () => {
   return (
-    <div className="container mx-auto my-8 p-8 pt-0 bg-orange-100 rounded-lg shadow-md">
-      <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">
+    <div className="pt-5 container mx-auto my-8 p-8  bg-orange-100 rounded-lg shadow-md">
+      <h2 className="text-5xl font-bold mb-8 text-center font-caveat text-gray-800">
         About Us
       </h2>
 
@@ -20,9 +20,7 @@ const About = () => {
         <div>
           <p className="text-gray-700 mb-4 text-lg leading-relaxed">
             Welcome to{" "}
-            <span className="font-bold text-red-900">
-              Sonam Beauty Parlour
-            </span>
+            <span className="font-bold text-red-900">Sonam Beauty Parlour</span>
             , where beauty meets artistry. We are a team of passionate makeup
             artists dedicated to making you look and feel your best on your
             special day.
@@ -37,9 +35,7 @@ const About = () => {
 
           <p className="text-gray-700 mb-4 text-lg leading-relaxed">
             At{" "}
-            <span className="font-bold text-red-900">
-              Sonam Beauty Parlour
-            </span>
+            <span className="font-bold text-red-900">Sonam Beauty Parlour</span>
             , we believe that makeup is a form of self-expression. Whether
             you're preparing for a wedding, photoshoot, or any other event, our
             goal is to highlight your unique features and bring out the beauty
@@ -55,9 +51,7 @@ const About = () => {
 
           <p className="text-gray-700 mb-4 text-lg leading-relaxed">
             Thank you for considering{" "}
-            <span className="font-bold text-red-900">
-              Sonam Beauty Parlour
-            </span>{" "}
+            <span className="font-bold text-red-900">Sonam Beauty Parlour</span>{" "}
             for your makeup needs. We look forward to being a part of your
             special moments and creating stunning looks that leave a lasting
             impression.
