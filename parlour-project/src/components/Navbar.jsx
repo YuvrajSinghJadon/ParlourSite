@@ -118,7 +118,7 @@ const Navbar = () => {
                 </li>
               ))}
               {/* Icons for small screens */}
-              <div className="flex flex-row pt-3">
+              <div className="flex flex-row pt-3 gap-2">
                 <li>
                   <a
                     href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
@@ -126,7 +126,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     onClick={closeMenu}
                   >
-                    <FaInstagram className="w-10 " alt="Instagram" />
+                    <FaInstagram color="#732A2A" size="28" className="w-10 " alt="Instagram" />
                   </a>
                 </li>
                 <li>
@@ -136,7 +136,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     onClick={closeMenu}
                   >
-                    <FaFacebook className="w-10" alt="Facebook" />
+                    <FaFacebook size="28" color="#732A2A"  alt="Facebook" />
                   </a>
                 </li>
               </div>
