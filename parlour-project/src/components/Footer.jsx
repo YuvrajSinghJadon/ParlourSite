@@ -25,7 +25,7 @@ const Footer = () => {
     <div className="flex flex-col-reverse lg:flex-row justify-between items-center px-5 lg:px-20 bg-orange-200 pb-5 md:pb-0">
       <div className="flex flex-col gap-2 lg:flex-row ">
         <div className="flex flex-col gap-2 text-center lg:text-left">
-        <div className="flex items-end gap-2">
+        <div className="flex justify-center md:justify-start items-end gap-2">
           <h2 className="text-3xl pt-2 text-red-900">Address</h2>
           <a
             href="https://www.google.com/maps/d/u/0/viewer?mid=10Dg861xJNy18dTvB6dHk9fp8dRQ&hl=en_US&ll=26.399822500000035%2C-98.158046&z=22"
