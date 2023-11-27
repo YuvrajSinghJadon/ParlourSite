@@ -106,7 +106,7 @@ const Navbar = () => {
                 <li key={index}>
                   <Link to={link?.path} onClick={closeMenu}>
                     <p
-                      className={`text-4xl ${
+                      className={`text-xl ${
                         matchRoute(link.path)
                           ? "text-yellow-600"
                           : "text-red-900"
