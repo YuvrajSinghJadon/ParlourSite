@@ -81,9 +81,9 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="transform hover:scale-110 transition-transform"
           >
-            <img className="w-8 pr-1" src={insta} alt="Instagram" />
+            <img className="w-9 pr-1" src={insta} alt="Instagram" />
           </a>
-          <img className="w-4 pr-1" src={pipe} alt="" />
+          <img className="w-3 pr-1" src={pipe} alt="" />
           <a
             href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
             target="_blank"

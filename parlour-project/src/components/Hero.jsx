@@ -7,7 +7,7 @@ import PhoneCallButton from "./Hero/PhoneCallButton";
 const hero = () => {
   return (
     <div className="w-11/12 mx-auto">
-      <div className="  flex  flex-col  justify-center items-center bg-orange-100  ">
+      <div className="  flex  flex-col  justify-center items-center bg-primary  ">
         <div className="lg:flex lg:justify-center lg:items-center">
           <img
             className="hidden lg:block lg:pr-10 lg:pb-5 transition-transform transform hover:scale-105"
@@ -17,7 +17,7 @@ const hero = () => {
 
           <div className="">
             <img
-              className="pb-5 transition-transform transform hover:scale-105"
+              className="pb-5 rounded-full transition-transform transform hover:scale-105 hover:shadow-lg"
               src={landingImage}
               alt=""
             />
@@ -25,7 +25,7 @@ const hero = () => {
           </div>
         </div>
 
-        <PhoneCallButton className phoneNumber="7617231365" />
+        <PhoneCallButton phoneNumber="7617231365" />
       </div>
       {/* Section-2-> Glamour Suite */}
       <div className="">

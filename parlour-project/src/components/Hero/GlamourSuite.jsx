@@ -7,7 +7,7 @@ import Art from "../../assets/Art.png";
 const GlamourSuite = () => {
   return (
     <div className="container mx-auto my-16">
-      <div className="bg-orange-200 p-8 text-center">
+      <div className="bg-orange-100 p-8 text-center">
         <h1 className="font-bold text-5xl mb-4">Signature Glamour Suite</h1>
         <div className="border-b-4 border-red-900 w-20 mx-auto"></div>
       </div>
@@ -37,7 +37,7 @@ const GlamourSuite = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:items-center lg:flex-row-reverse bg-orange-200 mt-16 p-8">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:flex-row-reverse bg-orange-100 mt-16 p-8">
         <div className="lg:w-1/3 overflow-hidden rounded-lg shadow-2xl transition-transform transform hover:scale-105">
           <img
             src={Haircut}

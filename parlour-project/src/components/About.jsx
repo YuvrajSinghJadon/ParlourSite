@@ -20,7 +20,7 @@ const About = () => {
         <div>
           <p className="text-gray-700 mb-4 text-lg leading-relaxed">
             Welcome to{" "}
-            <span className="font-bold text-purple-600">
+            <span className="font-bold text-red-900">
               Sonam Beauty Parlour
             </span>
             , where beauty meets artistry. We are a team of passionate makeup
@@ -37,7 +37,7 @@ const About = () => {
 
           <p className="text-gray-700 mb-4 text-lg leading-relaxed">
             At{" "}
-            <span className="font-bold text-purple-600">
+            <span className="font-bold text-red-900">
               Sonam Beauty Parlour
             </span>
             , we believe that makeup is a form of self-expression. Whether
@@ -55,7 +55,7 @@ const About = () => {
 
           <p className="text-gray-700 mb-4 text-lg leading-relaxed">
             Thank you for considering{" "}
-            <span className="font-bold text-purple-600">
+            <span className="font-bold text-red-900">
               Sonam Beauty Parlour
             </span>{" "}
             for your makeup needs. We look forward to being a part of your

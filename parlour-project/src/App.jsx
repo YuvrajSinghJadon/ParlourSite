@@ -9,7 +9,7 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <main className=" w-screen min-h-screen bg-orange-100 flex flex-col">
+    <main className=" w-screen min-h-screen bg-primary flex flex-col">
       <div>
         <Navbar />
       </div>
