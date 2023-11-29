@@ -1,9 +1,10 @@
 import React from "react";
 import photo from "/cropped.png";
 import { FaWhatsapp } from "react-icons/fa";
+import Bridal from '../assets/Bridal.png'
 const About = () => {
   return (
-    <div className="pt-5 container mx-auto my-8 p-8  bg-orange-100 rounded-lg shadow-md">
+    <div className="pt-5 container mx-auto my-8 p-8  bg-primary rounded-lg ">
       <h2 className="text-5xl font-bold mb-8 text-center font-caveat text-gray-800">
         About Us
       </h2>
@@ -11,7 +12,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="relative overflow-hidden rounded-lg">
           <img
-            src={photo}
+            src={Bridal}
             alt="Profile"
             className="w-full h-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300"
           />
